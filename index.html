@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title>TDP022 Mockup</title>
+	<title>C-sektionens 30års jubileum</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 	<script src="js/jquery.min.js"></script>
@@ -62,10 +62,57 @@
 				I sittningspaketet ingår följande:
 				<ul>
 					<li>C30 Märke</li>
-					<li>Sittning på NH</li>
-					<li>Brunch</li>
+					<li>Sittning på NH under kvällen</li>
+					<li>Brunch i Baljan</li>
 					<li>2st dryck under dagen i Baljan</li>
 				</ul>
+				<p>
+					Om du är sugen att tjöta och umgås med gamla klasskompisar under en finsittning se då till att anmäla dig då det finns begränsat med platser!
+					<br />
+					Självklart är din respektiva, och barn, även inbjudna. Kom bara ihåg att denna sittning kommer gå i en studentanda så det kan förekomma fulgückel, vulgära sittningssånger och kanske något mer.
+					<br />
+					Anmäl dig nedan. Varje anmälan är bindande!
+					<br />
+					Se till att du anger en giltig email eftersom du kommer få ett mail med betalningsanvisningar. Om denna betalning inte är mottagen 2 veckor efter anmälan kommer den tas bort.
+					<br />
+					Paketet kostar 320:-
+				</p>
+
+				<!-- Send with node.js instead? /-->
+				<!-- https://github.com/andris9/Nodemailer/ /-->
+
+				<div style='float: left; width: 230px;'>
+					<form method='post' action='sendform.php'>
+						<input type='text' name='name' placeholder='Namn' />
+						<br />
+						<input type='text' name='email' placeholder='Email' />
+						<br />
+						<select name='school_class'>
+							<option value='none'>--</option>
+							<option value='c'>C</option>
+							<option value='ip'>IP</option>
+							<option value='other'>Respektive/barn</option>
+						</select>
+						<br />
+						<textarea name='allergies' rows='5'></textarea>
+						<br />
+						<textarea name='other' rows='5'></textarea>
+						<br />
+						<button type='submit' class='btn'>Anmäl</button>
+						<input type='reset' class='btn' value='Återställ' />
+					</form>
+				</div>
+				<div style='float: left; font-size: 25px; padding-top: 5px;'>
+					Namn
+					<br /><br />
+					Email
+					<br /><br />
+					Program
+					<br /><br />
+					Allergier
+					<br /><br /><br /><br /><br /><br />
+					Övrigt
+				</div>
 			</div>
 
 			<div id="pictures">
