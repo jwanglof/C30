@@ -25,13 +25,6 @@
 					<div style="font-size: 25px">4e Maj 2013</div>
 				</p>
 			</div>
-
-			<!--<div class="span2 offset6">
-				Hej
-			</div>
-			<div class="span2">
-				Hej2
-			</div>/-->
 		</div><!-- End #top /-->
 
 		<div id="links">
@@ -53,39 +46,91 @@
 			<div id="information">
 				Dagen kommer börja med en välkomstdrink och avtäckning av vår staty i märkesbacken.
 				<br />
-				Fortsätter sedan nere i Baljan i Kårallen. Där kommer vi ha en utställning av C-sektionen med lite kuriosa, en bar med dryck och snacks, bjudning av tårta samt patetgyckel.
+				Fortsätter sedan nere i Baljan i Kårallen. Där kommer vi ha en utställning av C-sektionen med lite kuriosa, en bar med dryck och snacks, bjudning av tårta samt lite underhållning.
 				<br />
-				Om man har köpt sittningspaketet börjar festandet med en sittning på NH där diverse underhållning bjuds på för att sedan fortsätta och festa på NH (???).
+				Om man har köpt sittningspaketet kommer firandet fortsätta på NH med en sittning med tillhörande underhållning.
+				<br /><br />
+				<p>
+					Preliminära schemat:
+					<br />
+					<div style='float: left; margin-right: 30px'>
+						12.00
+						<br />
+						12.30
+						<br />
+						13.00
+						<br />
+						13.30
+						<br />
+						14.30
+						<br />
+						18.00
+					</div>
+					<div style='float: left'>
+						Avtäckning av monument i Märkesbacken med tillhörande välkomstdrink
+						<br />
+						Tal av Haraldsson
+						<br />
+						Brunchservering i Baljan (för de som köpt paketet)
+						<br />
+						Trubadur/gyckel
+						<br />
+						Visning av CQ/STABEN och nya CC
+						<br />
+						Sittningen börjar nere på NH
+					</div>
+				</p>
 			</div>
 
 			<div id="packet">
 				I sittningspaketet ingår följande:
 				<ul>
 					<li>C30 Märke</li>
-					<li>Sittning på NH under kvällen</li>
 					<li>Brunch i Baljan</li>
-					<li>2st dryck under dagen i Baljan</li>
+					<li>2st öl/cider/alkoholfritt under dagen i Baljan</li>
+					<li>Sittning på NH under kvällen</li>
+					<ul>
+						<li>Fördrink</li>
+						<li>Mat</li>
+						<ul>
+							<li>Färskosttårta</li>
+							<li>Helstekt fläskfilé</li>
+							<li>Cheesecake smaksatt med fläder</li>
+						</ul>
+						<li>2st öl/cider/alkoholfritt</li>
+						<li>Eftersläpp</li>
+					</ul>
 				</ul>
 				<p>
-					Om du är sugen att tjöta och umgås med gamla klasskompisar under en finsittning se då till att anmäla dig då det finns begränsat med platser!
+					<h4>Sista anmälningsdagen är den 25e April!</h4>
 					<br />
-					Självklart är din respektiva, och barn, även inbjudna. Kom bara ihåg att denna sittning kommer gå i en studentanda så det kan förekomma fulgückel, vulgära sittningssånger och kanske något mer.
+					Om du är sugen att tjöta och umgås med gamla klasskompisar under en finsittning se då till att anmäla dig då det finns enbart 44st platser!
 					<br />
-					Anmäl dig nedan. Varje anmälan är bindande!
+					Självklart är din respektive, och barn, även inbjudna. Kom bara ihåg att denna sittning kommer gå i en studentanda så det kan förekomma fulgückel, vulgära sittningssånger och kanske något mer.
 					<br />
-					Se till att du anger en giltig email eftersom du kommer få ett mail med betalningsanvisningar. Om denna betalning inte är mottagen 2 veckor efter anmälan kommer den tas bort.
+					Anmäl dig nedan. Kom ihåg att varje anmälan är bindande!
 					<br />
-					Paketet kostar 320:-
+					<b>Se till att du anger en giltig email eftersom du kommer få ett mail med betalningsanvisningar. Om denna betalning inte är mottagen 2 veckor efter anmälan kommer den tas bort.</b>
+					<br />
+					Paketet kostar enbart 150:-
+					<br /><br />
+					* Obligatoriska
 				</p>
 
 				<!-- Send with node.js instead? /-->
 				<!-- https://github.com/andris9/Nodemailer/ /-->
 
 				<div style='float: left; width: 230px;'>
-					<form method='post' action='sendform.php'>
+					<form method='post' action='sendform.php' id='fForm'>
 						<input type='text' name='name' placeholder='Namn' />
 						<br />
 						<input type='text' name='email' placeholder='Email' />
+						<br />
+						<select name='drink'>
+							<option value='beer'>Öl</option>
+							<option value='cider'>Cider</option>
+							<option value='nonealcohol' selected>Alkoholfritt</option>
+						</select>
 						<br />
 						<select name='school_class'>
 							<option value='none'>--</option>
@@ -103,9 +148,11 @@
 					</form>
 				</div>
 				<div style='float: left; font-size: 25px; padding-top: 5px;'>
-					Namn
+					Namn *
 					<br /><br />
-					Email
+					Email *
+					<br /><br />
+					Dryckespreferense *
 					<br /><br />
 					Program
 					<br /><br />
@@ -126,22 +173,19 @@
 					<br />
 					Marcus Hellgren, Kassör
 					<br />
-					Jacob Holm, 
+					Jacob Holm, Beställning
 					<br />
-					Torbjön Kvist, 
+					Torbjön Kvist, Kontakt
 					<br />
-					Anders Ydremark, 
+					Anders Ydremark, Sponsansvarig
 					<br />
-					Johan Stenberg, 
+					Johan Stenberg, Sittningsansvarig
 					<br />
-					Lowe Stålnacke, 
+					Lowe Stålnacke, Tryck
 				</p>
-				Du når oss lättast på c30info@c.lintek.liu.se
+				Du kommer lättast i kontakt med oss på c30kontakt@c.lintek.liu.se
 			</div>
 		</div><!-- End .span10 /-->
 	</div><!-- End .row-fluid /-->
-	<!--<div class="footer">
-		ui
-	</div>/-->
 </body>
 </html>

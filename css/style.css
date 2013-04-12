@@ -6,11 +6,12 @@ body {
 }
 
 a {
-	color: #000;
+	color: black;
 }
 
 a:hover {
-	color: #fff;
+	/*color: #fff;*/
+	color: gray;
 	text-decoration: none;
 }
 
@@ -59,5 +60,5 @@ a:hover {
 }
 
 .active {
-	text-shadow: 2px 2px #fff;
+	text-shadow: 2px 2px white;
 }
